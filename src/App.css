@@ -1,4 +1,84 @@
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -8,7 +88,17 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block;
 }
 
@@ -16,21 +106,25 @@ body {
   line-height: 1;
 }
 
-ol, ul {
+ol,
+ul {
   list-style: none;
 }
 
-blockquote, q {
+blockquote,
+q {
   quotes: none;
 }
 
-blockquote:before, blockquote:after {
-  content: '';
+blockquote:before,
+blockquote:after {
+  content: "";
   content: none;
 }
 
-q:before, q:after {
-  content: '';
+q:before,
+q:after {
+  content: "";
   content: none;
 }
 
@@ -39,7 +133,7 @@ table {
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
@@ -47,11 +141,20 @@ body {
   line-height: 21px;
 }
 
-.font-weight-medium, .title-badge-subtitle, .section-header nav a {
+.font-weight-medium,
+.title-badge-subtitle,
+.section-header nav a {
   font-weight: 500;
 }
 
-.font-weight-bold, h1, h2, .title-badge, .section-courses .item-container .item .content .title, .section-featured-resources > a > .button, .section-featured-resources .item-container .item .title, .section-footer .title {
+.font-weight-bold,
+h1,
+h2,
+.title-badge,
+.section-courses .item-container .item .content .title,
+.section-featured-resources > a > .button,
+.section-featured-resources .item-container .item .title,
+.section-footer .title {
   font-weight: 700;
 }
 
@@ -76,7 +179,7 @@ h2 {
 
 @media (max-width: 660px) {
   .section {
-      padding: 40px 20px;
+    padding: 40px 20px;
   }
 }
 
@@ -107,7 +210,6 @@ h2 {
   color: white;
   display: inline-block;
   transform: rotate(-0.7deg);
-  
 }
 
 .title-badge .title-badge-title {
@@ -157,8 +259,8 @@ h2 {
   max-width: 500px;
 }
 
-.component-section-header .image{
-  height: 500px
+.component-section-header .image {
+  height: 500px;
 }
 
 .component-usp-row {
@@ -194,16 +296,16 @@ h2 {
 
 @media (max-width: 880px) {
   .component-usp-row {
-      flex-direction: column;
+    flex-direction: column;
   }
 
   .component-usp-row .item {
-      margin-bottom: 20px;
+    margin-bottom: 20px;
   }
 }
 
 .section-courses {
-  background: #FAFAFA;
+  background: #fafafa;
   padding: 60px 40px;
 }
 
@@ -224,13 +326,13 @@ h2 {
 
 @media only screen and (max-width: 1165px) {
   .section-courses .item-container {
-      max-width: 724px;
+    max-width: 724px;
   }
 }
 
 @media only screen and (max-width: 803px) {
   .section-courses .item-container {
-      justify-content: center;
+    justify-content: center;
   }
 }
 
@@ -273,7 +375,7 @@ h2 {
   flex-direction: row;
   align-items: center;
   padding: 0 15px;
-  background: #FAFAFA;
+  background: #fafafa;
   display: flex;
   height: 45px;
 }
@@ -283,7 +385,8 @@ h2 {
   margin-right: 10px;
 }
 
-.section-courses .item-container .item .bar .time-text, .section-courses .item-container .item .bar .type-text {
+.section-courses .item-container .item .bar .time-text,
+.section-courses .item-container .item .bar .type-text {
   font-size: 14px;
   padding-right: 5px;
 }
@@ -298,7 +401,7 @@ h2 {
 .section-courses .item-container .item .bar .button {
   height: 26px;
   width: 26px;
-  background-color: #FFD240;
+  background-color: #ffd240;
   border-radius: 4px;
   margin-top: -2px;
   display: flex;
@@ -314,7 +417,7 @@ h2 {
 }
 
 .section-featured-resources > a > .button {
-  background: #FFD240;
+  background: #ffd240;
   font-size: 16px;
   padding: 15px 20px;
   border-radius: 30px;
@@ -375,11 +478,11 @@ h2 {
 
 @media only screen and (max-width: 1129px) {
   .section-featured-resources .item-container {
-      flex-direction: column;
+    flex-direction: column;
   }
 
   .section-featured-resources .item-container .item {
-      max-width: 400px;
+    max-width: 400px;
   }
 }
 
@@ -389,7 +492,8 @@ h2 {
   flex-direction: column;
   padding: 60px 40px 0px 40px;
   height: 390px;
-  background: url("https://learntocodetogether.nl/assets/skyline.svg") no-repeat bottom center;
+  background: url("https://learntocodetogether.nl/assets/skyline.svg") no-repeat
+    bottom center;
   overflow: hidden;
 }
 
@@ -430,7 +534,7 @@ h2 {
   position: fixed;
   height: 100px;
   width: 100%;
-  border-top: 1px solid #FFD240;
+  border-top: 1px solid #ffd240;
   z-index: 99;
   display: flex;
   justify-content: center;
@@ -475,7 +579,7 @@ h2 {
 }
 
 .section-header nav a:hover {
-  border-bottom: 2px solid #FFD240;
+  border-bottom: 2px solid #ffd240;
 }
 
 .section-header nav a:last-child {
@@ -484,13 +588,13 @@ h2 {
 
 @media only screen and (max-width: 600px) {
   .section-header-spacer {
-      height: 200px;
+    height: 200px;
   }
 
   .section-header nav {
-      flex-direction: column;
-      margin-top: 10px;
-      height: 1000px;
+    flex-direction: column;
+    margin-top: 10px;
+    height: 1000px;
   }
 }
 
@@ -511,11 +615,11 @@ h2 {
 
 @media only screen and (max-width: 600px) {
   .section-home-header .header-mobile {
-      display: inline-block;
+    display: inline-block;
   }
 
   .section-home-header .header-desktop {
-      display: none;
+    display: none;
   }
 }
 
