@@ -1,64 +1,58 @@
 import React from "react";
 import "./App.css";
 
+
 export default class App extends React.Component {
   render() {
     return (
       <div>
         <header id="header" className="section-header scroll">
-          <a href="./">
-            <img className="icon" src="https://learntocodetogether.nl/assets/icon.svg" />
-          </a>
-          <a href="https://www.meetup.com/Learning-to-Code-Amsterdam/">
-            <img className="meetup-icon" src="https://learntocodetogether.nl/assets/meetup-icon.svg" />
-          </a>
-          <nav>
-            <a href="/courses.html">Our Courses</a>
-          </nav>
         </header>
 
         <div className="section-header-spacer"></div>
 
         <div className="content">
-
-          <div className="section section-what-usp">
-            <div className="component-section-header">
-
-              <div className="title-badge">
-                <div className="title-badge-title">Do you want to</div>
+        <div className="title-badge">
+                <div className="title-badge-title" >
+                <a href="/courses.html">Pasta app
+                </a></div>
               </div>
-
+          
+        <div className="section section-what-usp">
+           <div className="component-section-header">
               <h2>
-                <div className="component-title ">
-                  Learn how to code
-                </div>
+              <div className="description">
+                    We know you all love pasta!!
+              </div>
+              <img className="image" src="https://thumbs.dreamstime.com/b/photo-overweight-man-enjoying-plate-spaghetti-focus-face-crazy-man-eating-plate-spaghetti-114526038.jpg" />          
               </h2>
 
-              <div className="description">
-                Awesome! Let’s do this together. We are here to support you in your coding journey.
-              </div>
             </div>
 
             <div className="component-usp-row">
               <div className="item team">
-                <img className="image" src="https://learntocodetogether.nl/assets/team.svg" />
-                <div className="component-title title">
-                  Get help from experienced developers
-                </div>
+              <div className="component-title title">
+                  Caponata pasta
+              </div>
+                <img className="image" src="https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2013/05/caponata-pasta_1.jpg" />
+               
               </div>
               <div className="item team">
-                <img className="image" src="https://learntocodetogether.nl/assets/community.svg" />
-                <div className="component-title title">
-                  Learn &amp; share with our community
-                </div>
+              <div className="component-title title">
+                  Pasta carbonara
+                  </div>
+                <img className="image" src="https://www.simplyrecipes.com/wp-content/uploads/2012/02/pasta-carbonara-vertical-a-1200.jpg" />
+                
               </div>
               <div className="item team">
-                <img className="image" src="https://learntocodetogether.nl/assets/personal-speed.svg" />
-                <div className="component-title title">
-                  Personal &amp; at your own speed
+              <div className="component-title title">
+                  Spaghetti Bolognese
                 </div>
+                <img className="image" src="http://assets.kraftfoods.com/recipe_images/opendeploy/201689_640x428.jpg" />
+                
               </div>
             </div>
+            
 
           </div>
 

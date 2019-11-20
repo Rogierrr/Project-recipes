@@ -102,11 +102,12 @@ h2 {
 }
 
 .title-badge {
-  background: #FFD240;
-  padding: 8px 25px;
+  background: rgb(252, 126, 23);
+  padding: 9px 30px;
   color: white;
   display: inline-block;
   transform: rotate(-0.7deg);
+  
 }
 
 .title-badge .title-badge-title {
@@ -150,10 +151,14 @@ h2 {
 
 .component-section-header .description {
   font-size: 17px;
-  line-height: 20px;
+  line-height: 50px;
   text-align: center;
   margin-top: 15px;
   max-width: 500px;
+}
+
+.component-section-header .image{
+  height: 500px
 }
 
 .component-usp-row {
@@ -172,7 +177,7 @@ h2 {
 }
 
 .component-usp-row .item img {
-  height: 130px;
+  height: 230px;
 }
 
 .component-usp-row .item .title {
@@ -425,11 +430,11 @@ h2 {
   position: fixed;
   height: 100px;
   width: 100%;
-  border-top: 3px solid #FFD240;
+  border-top: 1px solid #FFD240;
   z-index: 99;
   display: flex;
   justify-content: center;
-  background: url("https://learntocodetogether.nl/assets/skyline-upside-down.svg") top center no-repeat;
+  background: url("https://media.eataly.com/media/catalog/category/header_pastaweek72.jpg");
 }
 
 .section-header .skyline {
@@ -443,19 +448,19 @@ h2 {
   background-color: white;
 }
 
-.section-header .icon {
+/* .section-header .icon {
   position: absolute;
   height: 30px;
   left: 20px;
   top: 15px;
-}
+} */
 
-.section-header .meetup-icon {
+/* .section-header .meetup-icon {
   position: absolute;
   height: 25px;
   right: 20px;
   top: 17.5px;
-}
+} */
 
 .section-header nav {
   height: 60px;
