@@ -1,6 +1,8 @@
 import React from "react";
 import "./App.css";
 import Fetch from "./components/Fetch";
+import LikeCounter from './components/LikeCounter'
+import AddComment from './components/AddComment'
 
 export default class App extends React.Component {
   render() {
@@ -39,7 +41,20 @@ export default class App extends React.Component {
                   src="https://cupfulofkale.com/wp-content/uploads/2019/05/Roasted-Courgette-Pesto-Pasta-720x540.jpeg"
                   alt="pasta pesto"
                 />
+                <AddComment />
+                <LikeCounter />
               </div>
+              <div className="item team">
+                <div className="component-title title">Linguine with garlic butter prawns</div>
+                <img
+                  className="image"
+                  src="https://img.taste.com.au/oOvDMASb/w720-h480-cfill-q80/taste/2016/11/linguine-with-prawns-chilli-garlic-rocket-95151-1.jpeg"
+                  alt="more pasta"
+                />
+                <AddComment />
+                <LikeCounter />
+              </div>
+              
               <div className="item team">
                 <div className="component-title title">White truffle pasta</div>
                 <img
@@ -47,6 +62,8 @@ export default class App extends React.Component {
                   src="https://blog.liebherr.com/appliances/my/wp-content/uploads/sites/8/2019/05/Truffle_Pasta-721x400.jpg"
                   alt="more pasta"
                 />
+                <AddComment />
+                <LikeCounter />
               </div>
               <div className="item team">
                 <div className="component-title title">Pasta carbonara</div>
@@ -55,6 +72,8 @@ export default class App extends React.Component {
                   src="https://assets.bonappetit.com/photos/5a6f48f94f860a026c60fd71/16:9/w_1200,c_limit/pasta-carbonara.jpg"
                   alt="another pasta"
                 />
+                <AddComment />
+                <LikeCounter />
               </div>
               <div className="item team">
                 <div className="component-title title">Spaghetti Bolognese</div>
@@ -63,6 +82,8 @@ export default class App extends React.Component {
                   src="http://assets.kraftfoods.com/recipe_images/opendeploy/201689_640x428.jpg"
                   alt="pasta"
                 />
+                <AddComment />
+                <LikeCounter />
               </div>
             </div>
           </div>
