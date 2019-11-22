@@ -17,7 +17,10 @@ export default class App extends React.Component {
               <a href="/courses.html">Pasta app</a>
             </div>
           </div>
-          <Fetch />
+          <main>
+          <Fetch  />
+          </main>
+          
 
           <div className="section section-what-usp">
             <div className="component-section-header">
